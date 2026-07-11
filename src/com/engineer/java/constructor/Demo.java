@@ -1,0 +1,59 @@
+package com.engineer.java.constructor;
+
+public class Demo {
+
+    public static void main(String[] args) {
+
+        // Default Constructor
+        Student s1 = new Student();
+        System.out.println(s1.name);
+        System.out.println(s1.age);
+        System.out.println(s1.college);
+        System.out.println(s1.isPresent);
+        System.out.println(s1.marks);
+
+
+    }
+}
+
+class Student {
+
+    String name;
+    int age;
+    String college;
+    boolean isPresent;
+    double marks;
+}
+
+/*
+==========================
+DEFAULT CONSTRUCTOR
+==========================
+
+Definition:
+A constructor automatically created by Java if we don't write any constructor.
+
+Purpose:
+Used to create an object and initialize instance variables with default values.
+
+Syntax:
+Student s1 = new Student();
+
+Default Values:
+String  -> null
+int     -> 0
+double  -> 0.0
+boolean -> false
+
+---Interview Point---
+
+Default constructor is generated only if the programmer
+does not write any constructor.
+If we write even one constructor,
+Java will NOT generate the default constructor.
+
+Important:
+✔ Java creates it automatically only if we don't create any constructor.
+✔ It has no parameters.
+✔ It is called whenever an object is created.
+*/
