@@ -4,7 +4,7 @@ public class Demo {
 
     public static void main(String[] args) {
 
-        Student s1 = new Student();
+        StudentDefault s1 = new StudentDefault();
         System.out.println(s1.name);
         System.out.println(s1.age);
         System.out.println(s1.college);
@@ -14,7 +14,7 @@ public class Demo {
     }
 }
 
-class Student {
+class StudentDefault {
 
     String name;
     int age;

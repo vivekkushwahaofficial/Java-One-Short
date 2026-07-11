@@ -4,7 +4,7 @@ public class Demo2 {
 
     public static void main(String[] args) {
 
-        Student s1 = new Student();
+        StudentNoArg s1 = new StudentNoArg();
 
         System.out.println(s1.name);
         System.out.println(s1.age);
@@ -15,7 +15,7 @@ public class Demo2 {
     }
 }
 
-class Student {
+class StudentNoArg {
 
     String name;
     int age;
@@ -23,7 +23,7 @@ class Student {
     boolean isPresent;
     double marks;
 
-    Student() {
+    StudentNoArg() {
         // name = "Vivek";
         // age = 22;
         // college = "OIST";
