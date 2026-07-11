@@ -5,21 +5,15 @@ public class Demo4 {
     public static void main(String[] args) {
 
         // Default constructor
-        StudentConstructorOverloading s1
-                = new StudentConstructorOverloading();
-
+        StudentConstructorOverloading s1 = new StudentConstructorOverloading();
         s1.display();
 
         // Constructor with one parameter
-        StudentConstructorOverloading s2
-                = new StudentConstructorOverloading("Vivek");
-
+        StudentConstructorOverloading s2 = new StudentConstructorOverloading("Vivek");
         s2.display();
 
         // Constructor with two parameters
-        StudentConstructorOverloading s3
-                = new StudentConstructorOverloading("Kajal", 20);
-
+        StudentConstructorOverloading s3 = new StudentConstructorOverloading("Kajal", 20);
         s3.display();
     }
 }
