@@ -50,3 +50,68 @@ class StudentConstructorOverloading {
         System.out.println();
     }
 }
+
+/*
+==========================
+CONSTRUCTOR OVERLOADING
+==========================
+
+Definition:
+Constructor overloading is the process of creating multiple
+constructors in the same class with different parameter lists.
+
+Purpose:
+Used to initialize objects in different ways depending on the
+available data.
+
+Syntax:
+
+Student() {
+
+}
+
+Student(String name) {
+
+}
+
+Student(String name, int age) {
+
+}
+
+Selection Rule:
+
+Java selects the constructor based on:
+✔ Number of parameters.
+✔ Type of parameters.
+✔ Order of parameters.
+
+Execution:
+
+new Student();
+→ Student()
+
+new Student("Vivek");
+→ Student(String)
+
+new Student("Vivek", 22);
+→ Student(String, int)
+
+Rules:
+✔ Constructor name must be the same as the class name.
+✔ Constructors must have different parameter lists.
+✔ Return type is not allowed.
+✔ Parameter names do not matter, only parameter types and order.
+
+Interview Point:
+
+Constructor Overloading:
+- Multiple constructors in the same class.
+- Different parameter lists.
+- Java selects the appropriate constructor at compile time.
+
+Important:
+✔ Provides multiple ways to create objects.
+✔ Improves code flexibility.
+✔ It is an example of Compile-Time Polymorphism.
+✔ Constructor overloading is different from constructor chaining.
+*/
