@@ -16,6 +16,7 @@ A Java learning repository where I practice Java concepts from beginner to advan
 - ✅ Loops
 - ✅ Arrays
 - ✅ Recursion
+- ✅ io
 
 ### Constructors
 - ✅ Default Constructor
@@ -45,13 +46,14 @@ A Java learning repository where I practice Java concepts from beginner to advan
 - ✅ Nested Classes
 - ✅ Inner Classes
 - ✅ Call-by-Value in Java
+- ✅ Enums
+- ✅ Strings
+- ✅ StringBuilder and StringBuffer
+
 
 ## 🚀 Upcoming Topics
 
-- ⏳ Strings
-- ⏳ StringBuilder and StringBuffer
 - ⏳ Object Class
-- ⏳ Enums
 - ⏳ Generics
 - ⏳ Collections
 - ⏳ Lambda Expressions
