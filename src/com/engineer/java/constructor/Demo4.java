@@ -4,7 +4,7 @@ public class Demo4 {
 
     public static void main(String[] args) {
 
-        // Default constructor
+        // No-argument constructor
         StudentConstructorOverloading s1 = new StudentConstructorOverloading();
         s1.display();
 
@@ -23,9 +23,9 @@ class StudentConstructorOverloading {
     String name;
     int age;
 
-    // Default Constructor
+    // No-Argument Constructor
     StudentConstructorOverloading() {
-        System.out.println("Default Constructor Called");
+        System.out.println("No-Argument Constructor Called");
     }
 
     // Constructor with one parameter
@@ -114,4 +114,4 @@ Important:
 ✔ Improves code flexibility.
 ✔ It is an example of Compile-Time Polymorphism.
 ✔ Constructor overloading is different from constructor chaining.
-*/
+ */
