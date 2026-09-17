@@ -47,13 +47,13 @@ A Java learning repository where I practice Java concepts from beginner to advan
 - ✅ Inner Classes
 - ✅ Call-by-Value in Java
 - ✅ Enums
+- ✅ Object Class
 - ✅ Strings
 - ✅ StringBuilder and StringBuffer
 
 
 ## 🚀 Upcoming Topics
 
-- ⏳ Object Class
 - ⏳ Generics
 - ⏳ Collections
 - ⏳ Lambda Expressions
