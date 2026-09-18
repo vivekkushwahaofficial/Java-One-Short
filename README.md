@@ -1,10 +1,11 @@
 # ☕ Java One-Shot
 
-A Java learning repository where I practice Java concepts from beginner to advanced.
+A Java learning repository where I practice and document Java concepts from beginner to advanced.
 
 ## 📚 Completed Topics
 
 ### Java Basics
+
 - ✅ Variables
 - ✅ Data Types
 - ✅ Methods
@@ -16,9 +17,10 @@ A Java learning repository where I practice Java concepts from beginner to advan
 - ✅ Loops
 - ✅ Arrays
 - ✅ Recursion
-- ✅ io
+- ✅ I/O
 
 ### Constructors
+
 - ✅ Default Constructor
 - ✅ No-Argument Constructor
 - ✅ Parameterized Constructor
@@ -27,6 +29,7 @@ A Java learning repository where I practice Java concepts from beginner to advan
 - ✅ `this` Keyword
 
 ### OOP
+
 - ✅ Encapsulation
 - ✅ Inheritance
 - ✅ Polymorphism
@@ -39,28 +42,51 @@ A Java learning repository where I practice Java concepts from beginner to advan
 - ✅ `static` Keyword
 - ✅ `final` Keyword
 
-### Other Core Concepts
+### Object & Type Concepts
+
+- ✅ Object Class
 - ✅ Upcasting and Downcasting
 - ✅ `instanceof`
 - ✅ Autoboxing and Unboxing
-- ✅ Nested Classes
-- ✅ Inner Classes
 - ✅ Call-by-Value in Java
 - ✅ Enums
-- ✅ Object Class
-- ✅ Strings
-- ✅ StringBuilder and StringBuffer
 
+### Classes
+
+- ✅ Nested Classes
+- ✅ Inner Classes
+
+### Strings
+
+- ✅ Strings
+- ✅ StringBuilder
+- ✅ StringBuffer
+
+### Exception Handling
+
+- ✅ Exceptions
+- ✅ Custom Exceptions
+- ✅ `finally`
+
+### Collections
+
+- ✅ HashMap
+- ✅ LinkedHashMap
+- ✅ LRU Cache
+- ✅ `hashCode()` and `equals()`
+
+### Multithreading
+
+- ✅ Multithreading Basics
 
 ## 🚀 Upcoming Topics
 
 - ⏳ Generics
-- ⏳ Collections
+- ⏳ Collections Framework
 - ⏳ Lambda Expressions
 - ⏳ Streams
-- ⏳ Exceptions
 - ⏳ JVM and Memory
-- ⏳ Multithreading
+- ⏳ Advanced Multithreading
 - ⏳ Concurrency
 
 ## 🛠️ Tech Stack
