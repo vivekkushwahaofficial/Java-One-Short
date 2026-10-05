@@ -1,4 +1,4 @@
-package com.engineer.java.collections.stackAndQueue;
+package com.engineer.java.collections.Queue;
 
 import java.util.*;
 
